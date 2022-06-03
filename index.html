@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <form id="FORM">
+        <div id="NAME">
+            <h1 style="text-decoration:underline ; text-align: center;">ADMISSION FORM</h1>
+        <label for="name" >1. Name</label> <br><br>
+        <input type="text" id="name" placeholder="Your answer" required oninvalid="invalidfunction()" onfocus="focusfunction(this)" onblur="blurfunction(this)">
+         
+        <br>
+
+        <br>
+
+
+        <div>
+         
+         
+        <label for="joingroup"> 2.you join our Whatsapp group? <br><br> <a href="">http://...</a></label> <br><br>
+        <input type="text" name="" required id="joingroup" placeholder="Your answer"  onfocus="focusfunction(this)" onblur="blurfunction(this)" >
+         </div>
+        <br>
+        <br>
+        <label for="number">3.Whatapp number</label> <br><br>
+        <input type="number" id="number" required placeholder="Your answer" onfocus="focusfunction(this)" onblur="blurfunction(this)">
+
+        <br>
+        <br>
+
+        <label for="id ">4.Your easypaisa transaction id number:</label> <br><br>
+        <input type="text" id="id" required placeholder="Your answer"  onfocus="focusfunction(this)" onblur="blurfunction(this)">
+
+        <br>
+        <br>
+        <label for="payment">5.payment date and time</label> <br><br>
+        <input type="text" name="" required id="payment" placeholder="Your answer"  onfocus="focusfunction(this)" onblur="blurfunction(this)">
+
+        <br>
+        <br>
+
+        <label for="address">6.your home address:</label> <br><br>
+        <input type="text" name="" required id="address" placeholder="Your answer"  onfocus="focusfunction(this)" onblur="blurfunction(this)">
+
+
+        <br>
+        <br>
+        <label for="city">7.City:</label> <br><br>
+        <input type="radio" value="karachi"> karachi <br>
+        <input type="radio" name="" id="" value="islamabad"> Islamabad <br>
+        <input type="radio" name="" id="" value="Lahore"> Lahore <br>
+        <input type="radio" value="other"> other <input type="text" name="" id=""  onfocus="focusfunction(this)" onblur="blurfunction(this)"> <br>
+
+
+        <br>
+        <br>
+        <label for="pic">8.Profile picture</label> <br><br>
+        <input type="file" id="pic">
+
+        <br>
+        <br>
+
+        <button id="btn" type="submit">submit</button>
+
+       </div>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+#NAME{
+    border: 1px solid black;
+    background-color: white;
+    
+    border-radius: 2px 2px 2px;
+    width: 50%;
+    padding: 10px;
+
+}
+
+body{
+    
+    background-color: #D1E8E4;
+}
+
+#FORM{
+    background-color: #D1E8E4;
+    padding: 10px 10px 10px 400px;
+
+}
+
+button{
+    border-radius: 3px ;
+    background-color: green;
+    color: white;
+    border: green;
+    font-size: larger;
+}
