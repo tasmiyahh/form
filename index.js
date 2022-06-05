@@ -17,3 +17,10 @@ document.getElementById("FORM").addEventListener("submit" , submitfunction);
 function submitfunction(){
     alert("thankyou!");
 }
+
+
+function funcchange(){
+ var target = document.getElementById("name").value;
+ var paste = document.getElementById("welcome").innerHTML="hello " + target; 
+
+}

@@ -22,8 +22,14 @@ body{
 
 button{
     border-radius: 3px ;
-    background-color: green;
+    background-color:  #D1E8E4;
     color: white;
-    border: green;
+    border: rgb(171, 180, 171);
     font-size: larger;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: aquamarine;
 }
