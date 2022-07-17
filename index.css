@@ -5,8 +5,7 @@
     border-radius: 2px 2px 2px;
     width: 50%;
     padding: 10px;
-    text-align: start;
-
+    text-align: start:
 }
 
 body{
@@ -16,20 +15,14 @@ body{
 
 #FORM{
     background-color: #D1E8E4;
-    /* padding: 10px 10px 10px 400px; */
+
 
 }
 
 button{
     border-radius: 3px ;
-    background-color:  #D1E8E4;
+    background-color: green;
     color: white;
-    border: rgb(171, 180, 171);
+    border: green;
     font-size: larger;
-    cursor: pointer;
-    
-}
-
-button:hover{
-    background-color: aquamarine;
 }
